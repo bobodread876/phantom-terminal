@@ -6,7 +6,7 @@ A retro choose-your-own-adventure game presented as a haunted bulletin board sys
 
 ## Play Now
 
-**[https://nattydread876.github.io/phantom-terminal/](https://nattydread876.github.io/phantom-terminal/)**
+**[https://bobodread876.github.io/phantom-terminal/](https://bobodread876.github.io/phantom-terminal/)**
 
 ## About
 
@@ -18,18 +18,18 @@ Navigate message boards, decode encrypted files, and make choices that determine
 
 - **CRT monitor aesthetic** — Phosphor green text, scanlines, vignette, screen flicker, bezel frame
 - **Typewriter text animation** — Characters appear one at a time with authentic terminal feel
-- **Branching narrative** — 40+ story nodes across message boards, file archives, chat sessions, and hidden doors
+- **Branching narrative** — 37 story nodes across message boards, file archives, chat sessions, and hidden doors
 - **5 endings** — THE UPLOAD, THE DISCONNECT, THE ARCHIVE, THE MERGE, THE LOOP
 - **Inventory system** — 4 collectible items gate access to different paths
 - **Web Audio API sound** — Typewriter ticks, ambient hum, stinger chords, static bursts
 - **Save/load** — Progress saved to localStorage automatically
-- **Keyboard shortcuts** — Press 1-9 to select choices, ESC for a secret
+- **Keyboard shortcuts** — Press 1-9 to select choices, ESC ×3 during boot for a secret
 
 ## How to Play
 
 **Mouse:** Click on choices to navigate.
 
-**Keyboard:** Press number keys (1-9) to select choices. Press ESC repeatedly for a hidden path.
+**Keyboard:** Press number keys (1-9) to select choices. Press ESC three times during the boot sequence for a hidden path.
 
 **Tip:** Explore thoroughly. Some paths require items found in other areas. The hardest ending requires three specific items.
 
@@ -39,7 +39,7 @@ No build step required. Serve the files with any static HTTP server:
 
 ```bash
 # Clone
-git clone https://github.com/nattydread876/phantom-terminal.git
+git clone https://github.com/bobodread876/phantom-terminal.git
 cd phantom-terminal
 
 # Serve (pick one)
@@ -61,7 +61,7 @@ phantom-terminal/
 │   └── terminal.css    # CRT terminal styling
 └── js/
     ├── engine.js       # Game engine — rendering, audio, saves
-    └── story.js        # Story data — all 40+ nodes and narrative
+    └── story.js        # Story data — all 37 nodes and narrative
 ```
 
 ## Tech Stack
